@@ -1,6 +1,6 @@
 {
-  "name": "@alisproject/alis-editor",
-  "version": "0.2.22",
+  "name": "@ocrybit/alis-editor",
+  "version": "0.2.24",
   "main": "dist/AlisEditor.umd.min.js",
   "license": "GPL-3.0",
   "scripts": {
@@ -55,6 +55,7 @@
     "vue-template-compiler": "^2.6.11"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  }
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": "git://github.com/ocrybit/alis-editor.git"
 }
