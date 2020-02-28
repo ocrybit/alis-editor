@@ -12,7 +12,8 @@
     "release:postbuild": "git push --follow-tags origin master && npm publish",
     "release:major": "yarn release:prebuild; yarn standard-version --release-as major; yarn release:postbuild",
     "release:minor": "yarn release:prebuild; yarn standard-version --release-as minor; yarn release:postbuild",
-    "release:patch": "yarn release:prebuild; yarn standard-version; yarn release:postbuild"
+    "release:patch": "yarn release:prebuild; yarn standard-version; yarn release:postbuild",
+    "preinstall": "./vendor/setup"
   },
   "dependencies": {
     "@ckeditor/ckeditor5-autosave": "^16.0.0",
